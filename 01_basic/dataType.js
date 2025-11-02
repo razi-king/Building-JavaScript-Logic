@@ -7,3 +7,4 @@
    And Now The Browser Or Compiler Know That We Are Most Goona Write New Code 
    But Writing "use strict" is a good way of writing the code Or Is Also Good Practice  
 */
+// Following Are The List Of The Data Type

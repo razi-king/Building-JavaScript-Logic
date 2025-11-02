@@ -8,3 +8,20 @@
    But Writing "use strict" is a good way of writing the code Or Is Also Good Practice  
 */
 // Following Are The List Of The Data Type
+
+let data;
+console.log(typeof data);
+// undefined this mean in the variable nothing is defined
+// number
+let data2 = 23;
+console.log(typeof data2);
+// String
+let data3 = "Razi";
+console.log(typeof data3);
+// Boolean It Includ True Or False
+let data4 = true
+console.log(typeof data4);
+// null We Use This Null Value When We Don't Want Any Value To Be Present On Our Data Field Example Amount Of Fees Paid is 0 or We Can Alos Represent it With Null And We Can Also Use It At More Place Also Like The User Data Is Null 
+let data5 = null;
+console.log(typeof data5);
+// Data 6 Is Array And Data 7 Is Object Which Will W Study As Our Study Progress

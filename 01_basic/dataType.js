@@ -25,3 +25,20 @@ console.log(typeof data4);
 let data5 = null;
 console.log(typeof data5);
 // Data 6 Is Array And Data 7 Is Object Which Will W Study As Our Study Progress
+// alert(3+3) We Are Using Node Js Not Browser
+
+console.log(3 + 3)
+
+// Focus On Code Reusability It Should Be High
+
+// number => 2 to power 53
+// bigint 
+// null It Is A Standalone Value And It Is One Of The Type
+// It Is Different From Undefined It Means That No Value Is Assign To The Variable
+// Symbol => It Is Use For Uniqeness
+// Object => 
+console.log(typeof "King");
+// typeof Help Us To Find What Is The Typeu Of Any Variable Or Any Data
+// Here Is One Of The Exception Here null Type Is Object 
+console.log(typeof null); // object
+console.log(typeof undefined); // It Will Return Undefined

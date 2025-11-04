@@ -49,3 +49,62 @@ console.log(typeof myFunctiont);
 // Object And Browser Web Events Or Browser Events
 
 // JavaScript Is Dynamic Language 
+
+// ++++++++++++++++++++++++++++++++++++++ Memory +++++++++++++++++++++++++++++++++
+
+// Two Types Stack And Heap
+// All Primitive DataType Uses Stack Memory
+// All NonPrimitive DataType Uses Heap Memory
+
+// When We Use Stack Memory We Get The Actual Value
+// Where As In Heap Memory We Get The Reference
+
+let myInstagramUserName = "xx_razi_xx_143"
+
+let anotherUserName = myInstagramUserName
+
+console.log(myInstagramUserName);
+console.log(anotherUserName);
+
+anotherUserName = "RAZIKING"
+console.log(myInstagramUserName);
+console.log(anotherUserName);
+
+// let myArr = ["King", "Kong", "Godzilla"]
+
+// let secondArr = myArr
+
+// console.log(myArr);
+// console.log(secondArr);
+
+// secondArr[1] = "Bandar"
+
+// console.log(myArr);
+// console.log(secondArr);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "upi@ybl"
+}
+
+let userTwo = userOne
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.email = "user2@gmail.ocm"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+let myArr = ["King", "Kong", "Godzilla"]
+
+let secondArr = myArr
+
+console.log(myArr);
+console.log(secondArr);
+
+secondArr = ["Joker", "Bandar", "Chipkali"]
+
+console.log(myArr);
+console.log(secondArr);

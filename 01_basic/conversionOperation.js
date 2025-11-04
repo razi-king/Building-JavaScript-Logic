@@ -150,3 +150,41 @@ console.log(typeof stringNum);
 
 // For Null And Undefined The Also Converted Into String And Their Value Do Not change Just Appear Inside '' or "" quotes
 
+// ================= Operations ========================
+
+// let value = 3;
+
+// let negValue = -value;
+
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+// let str1 = "Razi";
+// let str2 = " King"
+// let str3 = str1+str2
+
+// console.log(str3);
+// console.log(1 + "2");
+// console.log("1"+2);
+// console.log("1" + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// let a = 3;
+
+// let b = a++;
+
+// console.log(`a:${a}, b:${b}`);
+
+// let a = 3;
+// let b = ++a
+
+// console.log(`a:${a}, b:${b}`);
+
+// 

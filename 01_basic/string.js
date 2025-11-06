@@ -38,3 +38,23 @@ console.log(`New String Is ${newString} And Second String Is ${thirdString}`);
 // So The Difference Between One Parameter And Two Parameter Is That The One Parameter Is Only Say Where To Start And It Will End On When String Will End Automatically Or As I Can See From Above The Code Bu Seeing Method Working
 // The Two Parameter SubString Method Will Take Start And The End Value And It Will Start From The First Value(index Number) And End Before The Last Value (index Number) So In Case OF Last Value We Have To Stop Or Method Stop Before The Last Index Value Reached One Step Before Reaching IT
 //  
+const fourth = newString.slice(3,4);
+console.log(fourth)
+/// Slice Method Take Two Attribut Start and End And Start Value Must Be Less Than To The End Value
+// Anchor Method 
+console.log(fourth.anchor("hii"));
+// Trim() // Ir REmove The Start And Ending Extra Space of the cstring
+const fifth = "   RaziKing       ";
+console.log(`This Is Without Any Method ${fifth} -------`);
+console.log(`This Is With Trim Method ${fifth.trim()}---------`);
+console.log(`This Is TrimStart Method ${fifth.trimStart()}------`);
+console.log(`This Is Trim End Method ${fifth.trimEnd()}------`);
+// It Also Work IN Line Terminator '\n'
+const msg = `The-Quick-Brown-Fox-Jumps-Over-The-Lazy-Dog`
+console.log(msg.replace(`-`,`%20`));
+// Why The Above Output Is Comming It's Unprecedented
+console.log(msg.toLowerCase().includes('t'));
+
+const newMessages = msg.split('-');
+console.log(`This Is Old Message ${msg} And This Is The New Message ${newMessages}`);
+console.log(newMessages);

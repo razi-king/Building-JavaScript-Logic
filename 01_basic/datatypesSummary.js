@@ -95,7 +95,10 @@ userTwo.email = "user2@gmail.ocm"
 
 console.log(userOne);
 console.log(userTwo);
+// In Non Primitive IF One Value Change Then THe Other Value Also Change But In Primite All 
+// All Variable Behave Or Act Independently So That One Variable Change Does Not Affect Another Variable
 
+// Let's See Why This Scenario(Below Code) Is Happening
 
 let myArr = ["King", "Kong", "Godzilla"]
 
